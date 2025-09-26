@@ -4,7 +4,7 @@ import { FaSearch } from 'react-icons/fa';
 
 const MovieSearchWidget = () => {
   const [movies, setMovies] = useState([]);
-  const [query, setQuery] = useState('The Lord of the Rings');
+  const [query, setQuery] = useState('Harry Potter');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
